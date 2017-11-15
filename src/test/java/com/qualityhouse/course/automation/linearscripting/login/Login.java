@@ -1,6 +1,8 @@
 package com.qualityhouse.course.automation.linearscripting.login;
 
+import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -107,4 +109,10 @@ public class Login {
 
         driver.close();
     }
+
+    @Test
+    public void tcLoginWithSeveralUsers() {
+        // todo: Exercise no. 1 - perform login (and logout) of three users (student1, student2, student3), sequentially
+    }
+
 }

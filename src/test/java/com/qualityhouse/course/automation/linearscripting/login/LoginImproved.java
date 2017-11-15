@@ -91,8 +91,4 @@ public class LoginImproved {
         Assert.assertEquals("Warning message is not displayed.", true, driver.findElement(By.cssSelector("b.err")).isDisplayed());
     }
 
-    @Test
-    public void tcLoginWithSeveralUsers() {
-        // todo: Exercise no. 1 - perform login (and logout) of three users (student1, student2, student3), sequentially
-    }
 }
