@@ -14,7 +14,7 @@ public class Login {
     public void tcLoginUser1 () {
         WebDriver driver = new ChromeDriver();
 
-        driver.get("http://acme.qualityhouse.bg/build3/index.php");
+        driver.get("https://acme.qualityhouse.com/build3/index.php");
 
         driver.findElement(By.cssSelector("a[href='index.php?page=login']")).click();
 
@@ -37,7 +37,7 @@ public class Login {
     public void tcLoginUser2 () {
         WebDriver driver = new ChromeDriver();
 
-        driver.get("http://acme.qualityhouse.bg/build3/index.php");
+        driver.get("https://acme.qualityhouse.com/build3/index.php");
 
         driver.findElement(By.cssSelector("a[href='index.php?page=login']")).click();
 
@@ -60,7 +60,7 @@ public class Login {
     public void tcLoginUser3 () {
         WebDriver driver = new ChromeDriver();
 
-        driver.get("http://acme.qualityhouse.bg/build3/index.php");
+        driver.get("https://acme.qualityhouse.com/build3/index.php");
 
         driver.findElement(By.cssSelector("a[href='index.php?page=login']")).click();
 
@@ -83,7 +83,7 @@ public class Login {
     public void tcTooManyUnsuccessfulLogins() {
         WebDriver driver = new ChromeDriver();
 
-        driver.get("http://acme.qualityhouse.bg/build3/index.php");
+        driver.get("https://acme.qualityhouse.com/build3/index.php");
 
         driver.findElement(By.cssSelector("a[href='index.php?page=login']")).click();
 

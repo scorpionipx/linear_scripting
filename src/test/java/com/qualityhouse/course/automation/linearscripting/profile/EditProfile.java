@@ -11,7 +11,7 @@ public class EditProfile {
     public void editUserProfile1() {
         WebDriver driver = new ChromeDriver();
 
-        driver.get("http://acme.qualityhouse.bg/build3/index.php");
+        driver.get("https://acme.qualityhouse.com/build3/index.php");
 
         driver.findElement(By.cssSelector("a[href='index.php?page=login']")).click();
 

@@ -11,7 +11,7 @@ public class EditProfileImproved {
 
     @Before
     public void setup() {
-        driver.get("http://acme.qualityhouse.bg/build3/index.php");
+        driver.get("https://acme.qualityhouse.com/build3/index.php");
 
         driver.findElement(By.cssSelector("a[href='index.php?page=login']")).click();
     }
